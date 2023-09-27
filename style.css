@@ -1,0 +1,120 @@
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1));
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+.company-header {
+    padding: 25px 0;
+    width: 100%;
+    background: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-logo {
+    font-size: 20px;
+    color: #f8fafb;
+    margin-bottom: 10px;
+}
+
+.company-logo i {
+    margin-right: 5px;
+}
+
+.company-name {
+    font-size: 70px; /* Increased the size of headings */
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.company-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.company-nav li {
+    margin: 0 20px;
+    font-size : 25px;
+}
+
+.company-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.company-section {
+    padding: 70px 0;
+    text-align: center;
+}
+.company-section h2 {
+    font-size: 50px; /* Increased the size of headings */
+    margin-bottom: 20px;
+}
+.company-section p {
+    font-size: 30px; /* Change the size of the paragraph under "About Us" */
+    font-style: italic;
+    margin-bottom: 20px;
+    }
+.company-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+.company-section li {
+    margin-bottom: 10px;
+    font-size: 30px; /* Increased the size of list items */
+}
+/* Style the company form */
+.company-section form {
+    text-align: left;
+}
+.company-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 30px;
+}
+.company-section input[type="text"],
+.company-section input[type="email"],
+.company-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.company-section button {
+    background-color: #00d4ff;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #00d4ff;
+    border-radius: 25px;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+.company-section button:hover {
+    background: #00a4cc;
+}
+
+.company-footer {
+    background-color: #0b0b0b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+body {
+    overflow-y: scroll;
+    max-height: 100vh; /* Ensure the page fits the viewport height */
+}
